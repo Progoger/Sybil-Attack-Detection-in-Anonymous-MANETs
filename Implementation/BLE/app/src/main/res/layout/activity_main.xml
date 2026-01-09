@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_peripheral_sybil_button"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:text="Act as Peripheral Sybil" />
+
+    <Button
+        android:id="@+id/start_peripheral_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Act as Peripheral (Server)" />
+
+    <Button
+        android:id="@+id/start_central_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Act as Central (Client)" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Stop" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Disconnected"
+        android:textSize="18sp"/>
+
+</LinearLayout>
